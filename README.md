@@ -1,31 +1,31 @@
-№# sql-academy
+## sql-academy
 
 1. Вывести имена всех людей, которые есть в базе данных авиакомпаний
-SELECT name
-FROM passenger
+-SELECT name
+-FROM passenger
 
 2. Вывести названия всеx авиакомпаний
-SELECT name
-FROM Company
+-SELECT name
+-FROM Company
 
 3. Вывести все рейсы, совершенные из Москвы
-SELECT*
-FROM Trip
-WHERE town_from = 'Moscow'
+-SELECT*
+-FROM Trip
+-WHERE town_from = 'Moscow'
 
 4. Вывести имена людей, которые заканчиваются на "man"
-SELECT name
-FROM Passenger
-WHERE name LIKE  '%man'
+-SELECT name
+-FROM Passenger
+-WHERE name LIKE  '%man'
 
 5. Вывести количество рейсов, совершенных на TU-134
-SELECT COUNT(plane) AS count
-FROM Trip 
-WHERE plae = "TU-134"
-ИЛИ
-SELECT COUNT(*) AS count 
-FROM Trip 
-WHERE plane = "TU-134"
+-SELECT COUNT(plane) AS count
+-FROM Trip 
+-WHERE plae = "TU-134"
+-ИЛИ
+-SELECT COUNT(*) AS count 
+-FROM Trip 
+-WHERE plane = "TU-134"
 
 6. Какие компании совершали перелеты на Boeing
 SELECT DISTINCT Company.name
