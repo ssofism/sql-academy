@@ -1,8 +1,11 @@
 ## sql-academy
 
-1. Вывести имена всех людей, которые есть в базе данных авиакомпаний
--SELECT name
--FROM passenger
+1. Вывести имена всех людей, которые есть в базе данных авиакомпаний [(сайт)](https://sql-academy.org/ru/trainer/tasks/1)
+
+```mysql
+SELECT name
+FROM passenger;
+```
 
 2. Вывести названия всеx авиакомпаний
 -SELECT name
