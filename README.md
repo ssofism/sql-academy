@@ -1,6 +1,6 @@
 ## sql-academy
 
-1. Вывести имена всех людей, которые есть в базе данных авиакомпаний [(сайт)](https://sql-academy.org/ru/trainer/tasks/1)
+1. [(Вывести имена всех людей, которые есть в базе данных авиакомпаний)](https://sql-academy.org/ru/trainer/tasks/1)
 
 ```mysql
 SELECT name
